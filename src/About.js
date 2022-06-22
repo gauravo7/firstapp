@@ -1,8 +1,16 @@
+import { useState } from "react";
+
 function About(){
+    const [data2,setData2] = useState("Gaurav Sharma");
+    const openAlert = ()=>{
+        setData2("Sharma G")
+    }
     return(
         <div>
-            <h2>I am From About Component</h2>
-            <p>We are in About Component</p>
+            <h2>About {data2} </h2>
+            <button onClick={openAlert}>
+                Click Me To See Data
+            </button>
         </div>
     );
 }
