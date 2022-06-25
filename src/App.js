@@ -21,7 +21,7 @@ function App() {
                 age:33
               }];
   return (
-      <div>
+      <>
         <About/>
         <Employee name="Gaurav" code="o7s/003"/>
         <Employee name="Anita" code="o7s/004"/>
@@ -37,7 +37,7 @@ function App() {
           )) }
           
         </ul>
-      </div>      
+      </>      
   );
 }
 
