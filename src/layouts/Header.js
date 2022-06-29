@@ -1,6 +1,9 @@
+import Sidebar from "./Sidebar";
+
 export default function Header(){
     return(
         <>
+          <Sidebar name="Gaurav" allow="false"/>
             <div className="row background pt-2">
                         <div className="col-md-6">
                             <h1>Delicious</h1>
